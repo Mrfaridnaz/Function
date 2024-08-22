@@ -1,1 +1,5 @@
-my name is Mohammad Farid
+def test():
+    print("this is my first function")
+
+test()
+
