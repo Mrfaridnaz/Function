@@ -1,29 +1,18 @@
-import logging
-
-logging.basicConfig(
-    filename="test1.log",
-    level=logging.INFO,
-    format='%(levelname)s %(asctime)s %(name)s %(message)s')
-
-def test():
-    logging.info("this is my first function")
-
-# return
 def test1():
-    logging.info("this is my function with return no print")
-
-<<<<<<< HEAD
-def test2():
-    logging.info("this is function with return")
-=======
-# return
-def test1():
-    return "this is my first function"
-
-test1()
+    print("this is first function")
+#  this will not print anything
 
 def test2():
-    return "this is my first function with return"
+    print("this is my 2nd function")
 
-print(test2())
->>>>>>> origin/main
+test2()
+
+def test3():
+    return "this is my 3nd function"
+# this will not print without print
+test3()
+
+def test4():
+    return "this is my 4th function"
+# this will not print without print
+print(test4())
